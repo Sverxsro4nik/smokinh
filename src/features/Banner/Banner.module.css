@@ -1,0 +1,35 @@
+.Container {
+	background-color: rgba(0, 0, 0, 1);
+	background-image: url('../../assets/bg/bannerBg.png');
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	padding: 0 19px;
+	padding-bottom: 26px;
+	text-align: center;
+	gap: 35px;
+}
+.Sale {
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 70px;
+	color: rgba(239, 161, 66, 1);
+	margin-top: 69px;
+}
+.Heading {
+	font-size: 18px;
+	line-height: 18.5px;
+	text-align: center;
+	color: rgba(250, 250, 250, 1);
+}
+.Discount {
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 70px;
+	color: rgba(250, 250, 250, 1);
+}
+.Promo {
+	line-height: 18.5px;
+	text-align: center;
+	color: rgba(150, 195, 97, 1);
+}

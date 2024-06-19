@@ -1,0 +1,36 @@
+.City {
+	color: rgba(255, 255, 255, 1);
+	line-height: 24px;
+	display: flex;
+	width: max-content;
+}
+.Button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 1);
+}
+.SocialWrapper {
+	background-color: var(--header-social-bg-color);
+	width: 100%;
+}
+.Social {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	max-width: 1440px;
+	padding: 6px 0;
+	margin: 0 auto;
+}
+.SocialIcon {
+	width: 37px;
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,8 @@
+.Item {
+	width: 259px;
+}
+.Img {
+	&:hover {
+		transform: scale(1.2);
+	}
+}

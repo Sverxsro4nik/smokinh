@@ -1,0 +1,20 @@
+.Form {
+	display: flex;
+	max-width: 685px;
+}
+.Input {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	border-right: 0 !important;
+}
+.Button {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-color: rgba(239, 161, 66, 1);
+	padding: 12px 25px 12px 26px;
+	font-size: 18px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 1);
+	border: none;
+	outline: none;
+}

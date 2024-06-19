@@ -1,0 +1,26 @@
+.Modal {
+	border: 6px;
+	padding: 40px 35px 55px 55px;
+}
+.Title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 23.5px;
+	text-align: left;
+	margin-bottom: 46px;
+}
+.Cities {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+}
+
+.City {
+	&:hover {
+		cursor: pointer;
+		color: rgba(150, 195, 97, 1);
+	}
+}
+.Active {
+	color: rgba(150, 195, 97, 1);
+}

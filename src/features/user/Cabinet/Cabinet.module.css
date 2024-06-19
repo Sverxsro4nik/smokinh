@@ -1,0 +1,36 @@
+.Cabinet {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
+.SearchButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent !important;
+	border: none !important;
+}
+.Basket {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent !important;
+	border: none !important;
+	position: relative;
+	&::before {
+		content: '6';
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		top: 0;
+		right: -2px;
+		background-color: rgba(150, 195, 97, 1);
+		border-radius: 50%;
+		font-size: 0.8rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: rgba(255, 255, 255, 1);
+	}
+}

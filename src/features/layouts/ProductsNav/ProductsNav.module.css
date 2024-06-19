@@ -1,0 +1,26 @@
+.Nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 413px;
+}
+.Item {
+	color: rgba(90, 90, 90, 1);
+	text-decoration: none;
+	line-height: 18.5px;
+	position: relative;
+	&:hover {
+		font-weight: bold;
+		font-size: 1rem;
+		border-bottom: 3px solid rgba(150, 195, 97, 1);
+		color: rgba(150, 195, 97, 1);
+		padding-top: 5px;
+	}
+}
+.ItemActive {
+	font-weight: bold;
+	font-size: 1rem;
+	border-bottom: 3px solid rgba(150, 195, 97, 1);
+	color: rgba(150, 195, 97, 1);
+	padding-top: 5px;
+}

@@ -1,0 +1,13 @@
+.List,
+.Sublist {
+	list-style-image: url('../../assets/icons/ArrowDownBlack.png');
+}
+.Item {
+	list-style-image: url('../../assets/icons/ArrowDownBlack.svg');
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.ItemActive {
+	color: rgba(150, 195, 97, 1);
+	list-style-image: url('../../assets/icons/ArrowDownIcon.svg');
+}

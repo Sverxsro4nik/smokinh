@@ -1,0 +1,71 @@
+.InfoWrapper {
+	background-color: var(--footer-bg-color);
+}
+.Info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	color: rgba(255, 255, 255, 1);
+	height: 88px;
+	z-index: 200;
+}
+.FooterNav {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 33px;
+	padding-bottom: 45px;
+	border-bottom: 1px solid rgba(226, 226, 226, 1);
+}
+.SocialWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+.Social {
+	display: flex;
+	justify-content: space-between;
+}
+.SocialIcons {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: rgba(35, 31, 32, 1);
+	margin-top: 1rem;
+}
+.SocialIcon {
+	color: rgba(35, 31, 32, 1);
+}
+.AgeLimit {
+	border: 2px solid rgba(150, 195, 97, 1);
+	width: 72px;
+	height: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	color: rgba(61, 61, 61, 1);
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 37px;
+}
+.Copyright {
+	color: rgba(150, 195, 97, 1);
+	font-size: 14px;
+	line-height: 24px;
+}
+.Warning {
+	text-align: center;
+	margin-top: 65px;
+	margin-bottom: 55px;
+	color: rgba(239, 161, 66, 1);
+	line-height: 18.5px;
+}
+.Explainer {
+	text-align: center;
+	color: rgba(165, 165, 165, 1);
+	line-height: 18.5px;
+	padding-bottom: 55px;
+	max-width: 50%;
+	margin: 0 auto;
+}

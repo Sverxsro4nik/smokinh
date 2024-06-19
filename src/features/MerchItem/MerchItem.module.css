@@ -1,0 +1,39 @@
+.Container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	padding: 0 40px;
+	background-color: rgba(251, 251, 251, 1);
+	text-align: right;
+	position: relative;
+	padding-top: 37px;
+	padding-right: 30px;
+	padding-bottom: 48px;
+}
+.Img {
+	position: absolute;
+	left: 0;
+	top: -170px;
+}
+.SecondImg {
+	top: -110px;
+}
+.About {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	max-width: 292px;
+}
+.Title {
+	font-size: 18px;
+	line-height: 16px;
+	color: rgba(61, 61, 61, 1);
+	margin-bottom: 41px;
+}
+.Description {
+	color: rgba(114, 114, 114, 1);
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 26px;
+}

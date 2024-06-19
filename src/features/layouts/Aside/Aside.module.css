@@ -1,0 +1,14 @@
+.Aside {
+	display: flex;
+	flex-direction: column;
+	gap: 21px;
+	max-width: 310px;
+	margin-top: 46px;
+}
+.Filters {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+	background-image: var(--carousel-bg-gradient);
+	padding: 14px 24px 28px 18px;
+}

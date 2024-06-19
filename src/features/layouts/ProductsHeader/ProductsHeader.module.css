@@ -1,0 +1,39 @@
+.Container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 46px;
+	margin-bottom: 31px;
+}
+.ViewButtons {
+	display: flex;
+	gap: 8px;
+}
+.Tile {
+	display: flex;
+	flex-wrap: wrap;
+	width: 23px;
+	height: 23px;
+	gap: 1px;
+	cursor: pointer;
+}
+.TileItem {
+	width: 10px;
+	height: 10px;
+	background-color: rgba(218, 218, 218, 1);
+}
+.Active {
+	background-color: rgba(150, 195, 97, 1);
+}
+.Row {
+	display: flex;
+	flex-direction: column;
+	height: 23px;
+	gap: 2px;
+	cursor: pointer;
+}
+.RowsItem {
+	width: 23px;
+	height: 6px;
+	background-color: rgba(218, 218, 218, 1);
+}

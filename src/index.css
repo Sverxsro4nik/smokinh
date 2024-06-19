@@ -1,0 +1,33 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+:root {
+	--header-social-bg-color: rgba(42, 42, 42, 1);
+	--footer-bg-color: rgba(35, 31, 32, 1);
+	--button-bg-color: rgba(150, 195, 97, 1);
+	--button-text-color: rgba(255, 255, 255, 1);
+	--bs-btn-bg: rgba(150, 195, 97, 1);
+	--bs-btn-border-color: rgba(150, 195, 97, 1);
+	--carousel-bg-gradient: linear-gradient(
+		97.77deg,
+		rgba(245, 245, 245, 0.5) -23.46%,
+		rgba(245, 245, 245, 0.5) 107.51%
+	);
+}
+::-webkit-scrollbar {
+	width: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p {
+	margin: 0;
+}
+.carousel.carousel-slider .control-arrow {
+	top: 0;
+	color: var(--button-bg-color) !important;
+	font-size: 26px;
+	bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+}
